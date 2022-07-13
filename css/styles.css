@@ -1,125 +1,139 @@
 * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-  @font-face {
-    font-family: "MyCommic";
-    src: url(COMIC.TTF) format("truetype");
-  }
+@font-face {
+  font-family: "MyCommic";
+  src: url(COMIC.TTF) format("truetype");
+}
 
 body {
-  background-image: url(../images/water2.gif);
+  background-image: url(../images/funny-smile-dope-faces-seamless-pattern-psychedelic-surreal-techno-melt-smile-background-trippy-smiley-faces-techno-melting-smile-face-cartoon-background-wallpaper-concept-art-y2k-aesthetic_521005-1455.webp);
 }
 
 .home {
-    float:left;
-    position:relative;
-    top:0;
-    left:0;
-    width: 100%;
-    border-bottom: 10px solid teal;
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 10px solid teal;
 }
 
 .content {
-    font-size: 1em;
-    width:90%;
-    margin:auto;
-    padding:80px 0;
-  }
+  font-size: 1em;
+  width: 90%;
+  margin: auto;
+  padding: 80px 0;
+}
 
 .myH2 {
-	text-align:justify;
-	font-size: 5em;
-  z-index:1;
+  text-align: justify;
+  font-size: 5em;
+  z-index: 1;
 }
 
 // Keyframes
 /* Chrome, Safari, Opera */
 @-webkit-keyframes bg-color {
-  50% {background-position: right center;}
+  50% {
+    background-position: right center;
+  }
 }
 /* Standard syntax */
 @keyframes bg-color {
-  50% {background-position: right center;}
+  50% {
+    background-position: right center;
+  }
 }
 
 .c-page__title {
   font-family: "MyCommic", Arial, Helvetica, sans-serif;
   background: -o-linear-gradient(
-        45deg,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 154, 0, 1) 10%,
-        rgba(208, 222, 33, 1) 20%,
-        rgba(79, 220, 74, 1) 30%,
-        rgba(63, 218, 216, 1) 40%,
-        rgba(47, 201, 226, 1) 50%,
-        rgba(28, 127, 238, 1) 60%,
-        rgba(95, 21, 242, 1) 70%,
-        rgba(186, 12, 248, 1) 80%,
-        rgba(251, 7, 217, 1) 90%,
-        rgba(255, 0, 0, 1) 100%
-    );background: linear-gradient(
-        45deg,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 154, 0, 1) 10%,
-        rgba(208, 222, 33, 1) 20%,
-        rgba(79, 220, 74, 1) 30%,
-        rgba(63, 218, 216, 1) 40%,
-        rgba(47, 201, 226, 1) 50%,
-        rgba(28, 127, 238, 1) 60%,
-        rgba(95, 21, 242, 1) 70%,
-        rgba(186, 12, 248, 1) 80%,
-        rgba(251, 7, 217, 1) 90%,
-        rgba(255, 0, 0, 1) 100%
-    );
+    45deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%
+  );
   background-size: 1600px 200px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation-duration: 4s;
-          animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-name: bg-color;
-          animation-name: bg-color;
+  animation-name: bg-color;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .c-article__title {
-  font-family: 'FreeMono', monospace;
-  background: -o-linear-gradient(45deg, rgba(156,1,255,1) 0%, rgba(255,91,219,1) 50%, rgba(156,1,255,1) 100%);
-  background: linear-gradient(45deg, rgba(156,1,255,1) 0%, rgba(255,91,219,1) 50%, rgba(156,1,255,1) 100%);
+  font-family: "FreeMono", monospace;
+  background: -o-linear-gradient(
+    45deg,
+    rgba(133, 253, 49) 0%,
+    rgba(253, 253, 253) 50%,
+    rgba(133, 253, 49) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(133, 253, 49) 0%,
+    rgba(253, 253, 253) 50%,
+    rgba(133, 253, 49) 100%
+  );
   background-size: 1600px 200px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation-duration: 1.5s;
   -webkit-animation-name: bg-color;
-          animation-name: bg-color;
+  animation-name: bg-color;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .article {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 25px;
   padding: 25px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .myP {
-	text-align: justify;
-	font-size: 20px;
-  color:white;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
 }
 
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
+@media all and (max-width: 700px) {
+  .myP {
+    padding: 2%;
+  }
 }
-
